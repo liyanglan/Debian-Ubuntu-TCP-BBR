@@ -13,7 +13,7 @@ Debian/Ubuntu TCP BBR 改进版/增强版/魔改版
 
 # 准备:
 
-# 1、安装原版BBR
+# 1、安装原版BBR：
 
 wget --no-check-certificate -qO 'BBR.sh' 'https://raw.githubusercontent.com/liyanglan/Debian-Ubuntu-TCP-BBR/master/BBR.sh' && chmod a+x BBR.sh && bash BBR.sh -f
 

@@ -1,5 +1,7 @@
 # Debian-Ubuntu-TCP-BBR-
 Debian/Ubuntu TCP BBR 改进版/增强版/魔改版
+
+
 背景:
 
 原版的BBR对于我们来说,速度不太稳定. 通过修改BBR源码,调整参数,使其更强劲.
@@ -14,14 +16,14 @@ Debian/Ubuntu TCP BBR 改进版/增强版/魔改版
 
 使用前,请确认能够开启BBR. 可参考: Debian/Ubuntu 开启 TCP BBR 拥塞算法 或者直接执行此命令进行开启.
 
-wget --no-check-certificate -qO 'BBR.sh' 'https://moeclub.org/attachment/LinuxShell/BBR.sh' && chmod a+x BBR.sh && bash BBR.sh -f
+wget --no-check-certificate -qO 'BBR.sh' 'https://github.com/liyanglan/Debian-Ubuntu-TCP-BBR-/blob/master/BBR.sh' && chmod a+x BBR.sh && bash BBR.sh -f
 
 
 注意:执行此命令会自动重启.
 
 一键地址:
 
-wget --no-check-certificate -qO 'BBR_POWERED.sh' 'https://moeclub.org/attachment/LinuxShell/BBR_POWERED.sh' && chmod a+x BBR_POWERED.sh && bash BBR_POWERED.sh
+wget --no-check-certificate -qO 'BBR_POWERED.sh' 'https://github.com/liyanglan/Debian-Ubuntu-TCP-BBR-/blob/master/BBR_POWERED.sh' && chmod a+x BBR_POWERED.sh && bash BBR_POWERED.sh
 
 
 指定内核版本(以v4.11.9内核版本为例):

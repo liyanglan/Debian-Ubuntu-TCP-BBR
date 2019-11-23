@@ -27,7 +27,7 @@ wget --no-check-certificate -qO 'BBR_POWERED.sh' 'https://git.io/JeiRG' && chmod
 
 指定内核版本(以v4.11.9内核版本为例):
 ```
-wget --no-check-certificate -qO 'BBR_POWERED.sh' 'https://raw.githubusercontent.com/liyanglan/Debian-Ubuntu-TCP-BBR/master/BBR_POWERED.sh' && chmod a+x BBR_POWERED.sh && bash BBR_POWERED.sh -f v4.11.9
+wget --no-check-certificate -qO 'BBR_POWERED.sh' 'https://git.io/JeiRG' && chmod a+x BBR_POWERED.sh && bash BBR_POWERED.sh -f v4.11.9
 ```
 
 
